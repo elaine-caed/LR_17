@@ -1,0 +1,19 @@
+using System;
+
+namespace LR
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const string MSG = "HELLO";
+
+            string name = "Vasj";
+            name = "Petj";
+
+            Console.WriteLine($"{MSG}, {name}");
+
+            Console.ReadKey();
+        }
+    }
+}
