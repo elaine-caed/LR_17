@@ -1,0 +1,19 @@
+using System;
+
+namespace LR
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool ba = true;
+            bool bb = false;
+            bool bc = ba;
+            bool bd = !bb;
+
+            Console.WriteLine($"ba = {ba} \n bb = {bb} \n bc = {bc} \n bd = {bd}");
+
+            Console.ReadKey();
+        }
+    }
+}
