@@ -1,0 +1,17 @@
+using System;
+
+namespace LR
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string xString = Console.ReadLine();
+            int x = Convert.ToInt32(xString);
+            int y = (int) Math.Pow(x,2);
+            Console.WriteLine($"x^2 = {y}");
+            double z = Math.Cos(y);
+            Console.WriteLine($"cos(x^2) = {z}");
+        }
+    }
+}
